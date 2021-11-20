@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken';
 import asyncHandler from 'express-async-handler';
-import User from '../models/userSchema.js';
+import User from '../model/userSchema.js';
 
 
 // Protect Route

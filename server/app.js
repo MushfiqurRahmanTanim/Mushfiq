@@ -27,7 +27,7 @@ app.get('/', (req, res) => {
 
 //routes configuration
 
-app.use('/api/auth', authRoutes);
+app.use('/api/users/', authRoutes);
 
 // Error Handler
 app.use(notFound);
